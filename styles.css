@@ -1,3 +1,156 @@
 #demo{
     border: 5px solid red;
 }
+
+main {
+    display:grid;
+    grid-template-areas:
+    "top-nav-left topbar top-nav-right"
+    "side-nav content content"
+    "footer footer footer";
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: auto auto auto;
+}
+
+html
+{
+    background-color: #2D2E32;
+    color: #fff;
+}
+
+header
+{
+    grid-area:topbar;
+    background-color: #2D2E32;
+}
+aside
+{
+
+    grid-area:side-nav;
+}
+article
+{
+    grid-area:content;
+}
+footer
+{
+    grid-area: footer;
+    background-color: #2D2E32;
+}
+
+.container
+{
+
+    background-color: white;
+    margin: 2px;
+}
+
+
+
+.nav-menu
+{
+
+    display:flex;
+    flex-direction: column;
+}
+
+.side-item
+{
+    border: 2px solid black;
+    min-height: 25px;
+    background-color: #123456;
+    margin: 1px;
+}
+
+nav.top-nav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.top-nav-right
+{
+    grid-area:top-nav-right;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.top-nav-link
+{
+    margin-right: 5%;    
+    font-family: monospace;
+}
+
+body
+{
+    max-width: 960px;
+    margin: auto;
+
+}
+
+ul {
+    display:flex;
+    list-style-type: none;
+}
+
+.center-nav{
+
+
+}
+
+
+ul li{
+    margin-right: 20px;
+}
+
+
+
+a {
+    position: relative;
+    text-decoration: none;
+}
+
+a::before {
+    content: "";
+    position: absolute;            
+    height: 2px;
+    right: 0px;
+    bottom: -3px;
+    left: 0px;
+    background-color: #00CC80;
+}
+
+a:hover{
+    color:#0D985F
+}
+
+.top-nav-left
+{
+    content: top-nav-left;
+    font-family: monospace;
+    font-size: larger;
+    display:flex;
+    align-items: center;
+
+}
+
+i
+{
+   
+}
+
+.fa{
+    font-size: 20px !important;
+    color: white;
+    margin-right: 10px;
+}
+
+.fa:hover
+{
+    color: #0D985F !important;
+}
