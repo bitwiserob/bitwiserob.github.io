@@ -96,6 +96,7 @@ body
 ul {
     display:flex;
     list-style-type: none;
+    padding-left: 0px;
 }
 
 .center-nav{
@@ -108,7 +109,9 @@ ul li{
     margin-right: 20px;
 }
 
-
+li {
+    margin:0px;
+}
 
 a {
     position: relative;
