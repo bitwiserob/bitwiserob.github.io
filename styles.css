@@ -1,6 +1,3 @@
-#demo{
-    border: 5px solid red;
-}
 main {
     display:grid;
     grid-template-areas: "top-nav-left topbar top-nav-right" "side-nav content content" "footer footer footer";
@@ -77,7 +74,7 @@ a {
     position: relative;
     text-decoration: none;
 }
-a::before {
+.link-style a::before {
     content: "";
     position: absolute;
     height: 2px;
@@ -86,9 +83,17 @@ a::before {
     left: 0px;
     background-color: #00CC80;
 }
+a:visited{
+    color:#FFF;
+    
+}
+
 a:hover{
     color:#0D985F 
 }
+
+
+
 .top-nav-left {
     content: top-nav-left;
     font-family: monospace;
@@ -96,8 +101,7 @@ a:hover{
     display:flex;
     align-items: center;
 }
-i {
-}
+
 .fa{
     font-size: 20px !important;
     color: white;
@@ -105,4 +109,17 @@ i {
 }
 .fa:hover {
     color: #0D985F !important;
+}
+
+footer{
+    background-color: #19191b;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    font-family: monospace;
+    font-size: 0.7rem;
+    padding: 2px;
+    
 }
