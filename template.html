@@ -4,47 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>template</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
-    <main>
-        <div class="top-nav-left">
-            <span class="banner-logo link-style" >
-                <a href="index.html">Bitwise<strong>Rob</strong></a>
-            </span>
-        </div>
-        <header>
-            <nav class="center-nav">
-                <ul class="link-style">
-                    <li class="top-nav-link"><a>About</a></li>
-                    <li class="top-nav-link"><a>Projects</a></li>
-                    <li class="top-nav-link"><a>Education</a></li>
-                    <li class="top-nav-link"><a>Resume</a></li>
-                    <li class="top-nav-link"><a>Github</a></li>
-                    
-                </ul>
-                
-            </nav>
-        </header>
-        <div class="top-nav-right">
-            <a href="https://github.com/bitwiserob" target="_blank"><i class="fa fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/robert-kaczur/" target="_blank"><i class="fa fa-linkedin"></i></a>
-            <a href="mailto:robert.kaczur@outlook.com" target="_blank"><i class="fa fa-envelope"></i></a>
-            
-        </div>
-        <aside class="container">
-            <div class="nav-menu">
-                <div class="picture-container">
-                    <img src="image.png" alt="placeholder image">
-                </div>
-                <div class="side-item">a</div>
-                <div class="side-item">b</div>
-                <div class="side-item">c</div>
-            </div>
-        </aside>
-        <article class="container">art</article>
-        <footer>&copy; Robert Kaczur - Masterfully made by slamming my head into my keyboard. </footer>
-    </main>
+<body>
+
+<div class="topnav" id="responsiveTarget">
+  <div class="link-wrapper">
+  <div class="main-nav">
+    <a href="#home" class="active"><u>Bitwise<span id="logo-text">Rob</span></u></a>
+    <a href="#news"><u>About</u></a>
+    <a href="#contact"><u>Projects</u></a>
+    <a href="#about"><u>Education</u></a>
+    <a href="#about"><u>Resume</u></a>
+    <a href="javascript:void(0);" class="icon" onclick="addResponsiveClass()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <div class="topnav-right">
+    <a href="https://github.com/bitwiserob" target="_blank"><i class="fa fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/robert-kaczur/" target="_blank"><i class="fa fa-linkedin"></i></a>
+    <a href="mailto:robert.kaczur@outlook.com" target="_blank"><i class="fa fa-envelope"></i></a>
+    
+</div>
+</div>
+</div>
+<script>
+function addResponsiveClass() {
+  var x = document.getElementById("responsiveTarget");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 </body>
+<footer><div class="link-wrapper">
+  &copy; Robert Kaczur - Masterfully made by slamming my head into my keyboard.
+</div> </footer>
+
 </html>
