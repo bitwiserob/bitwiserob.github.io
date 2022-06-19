@@ -1,19 +1,49 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
-    
 </head>
 <body>
-    <h1 id="demo">Index</h1>
-    <h3>
-        <a href="page2.html">link</a>
-        <a href="template.html">template</a>
-        <a href="templateb.html">templateb</a>
-        <h1>rest</h1>
-    </h3>
+
+<div class="topnav" id="responsiveTarget">
+  <div class="link-wrapper">
+  <div class="main-nav">
+    <a href="#home" class="active"><u>Bitwise<span id="logo-text">Rob</span></u></a>
+    <a href="#news"><u>About</u></a>
+    <a href="#contact"><u>Projects</u></a>
+    <a href="#about"><u>Education</u></a>
+    <a href="#about"><u>Resume</u></a>
+    <a href="javascript:void(0);" class="icon" onclick="addResponsiveClass()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <div class="topnav-right">
+    <a href="https://github.com/bitwiserob" target="_blank"><i class="fa fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/robert-kaczur/" target="_blank"><i class="fa fa-linkedin"></i></a>
+    <a href="mailto:robert.kaczur@outlook.com" target="_blank"><i class="fa fa-envelope"></i></a>
+    
+</div>
+</div>
+</div>
+<script>
+function addResponsiveClass() {
+  var x = document.getElementById("responsiveTarget");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 </body>
+<footer><div class="link-wrapper">
+  &copy; Robert Kaczur - Masterfully made by slamming my head into my keyboard.
+</div> </footer>
+
 </html>
