@@ -140,7 +140,8 @@ a u {
 }
 
 .skill-info {
-  padding: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 
 
@@ -197,7 +198,6 @@ a u {
   }
 
   .skill-segment{
-    padding-bottom: 20px;
   }
 }
 
