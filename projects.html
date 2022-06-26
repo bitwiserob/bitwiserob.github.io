@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="topnav" id="responsiveTarget">
+      <div class="text-wrapper">
+        <div class="main-nav">
+          <a href="/index.html" class="active"
+            ><u id="test">Bitwise<span id="logo-text">Rob</span></u></a
+          >
+          <a href="#about"><u>About</u></a>
+          <a href="/projects.html"><u>Projects</u></a>
+          <a href="#skills"><u>Skills</u></a>
+          <a href="#resume"><u>Resume</u></a>
+          <a
+            href="javascript:void(0);"
+            class="icon"
+            onclick="addResponsiveClass()"
+          >
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+
+        <div class="topnav-right">
+          <a href="https://github.com/bitwiserob" target="_blank"
+            ><i class="fa fa-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/robert-kaczur/" target="_blank"
+            ><i class="fa fa-linkedin"></i
+          ></a>
+          <a href="mailto:robert.kaczur@outlook.com" target="_blank"
+            ><i class="fa fa-envelope"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="top-segment text-wrapper" style="flex-direction: column;">
+        
+    <div class="project-segment main-shadow">
+        <div class="project-title main-shadow">Bican Tenant & Property<span class="flavor-text">: Free Lance</span></div>
+        <div class="project-discription">
+          <h4 class="pm-0" style="padding-top: 20px;">Skills used</h4>
+            <ul>
+                <li>React Native, Python, Flask, PostgreSQL</li>
+            </ul>
+
+          <h4 class="pm-0">Details</h4>
+            <ul>
+                                
+              <li>Created a minimum viable product application for property management</li>
+              <li>Created a RESTful API using flask</li>
+              <li>Created a frontend mobile app using React Native</li>
+              <li>Users had ability to signup and send service requests through mobile frontend</li>
+              <li>Request would be sent to property manager using mailgun</li>
+              <li>Users were authenticated through JWT tokens using the flask backend</li>
+              <li>Backend was hosted on Heroku using a PostGreSQL Database</li>
+              <li>Development is currently on hold, app is available on google <a href="https://play.google.com/store/apps/details?id=ca.bican.tenant" target="_blank" >play</a></li>
+              
+            </ul>
+        </div>
+    </div>
+
+    <div class="project-segment main-shadow">
+      <div class="project-title main-shadow fn-sm">GBCSporting: School project</div>
+      <div class="project-discription">
+        <h4 class="pm-0" style="padding-top: 20px;">Skills used</h4>
+          <ul>
+              <li>C#, ASP.net MVC WebApp,  SQLserver, EFCore, Razor Pages</li>
+          </ul>
+
+        <h4 class="pm-0">Details</h4>
+          <ul>
+                              
+            <li>Created a web app using ASP.net MVC</li>
+            <li>Application was a functional product management platform</li>
+            <li>Worked and coordinated with 4 group members using Git and github</li>
+            <li>Responsibilities included designing a RDMS Schema</li>
+            <li>Created models used to scaffold SQL databases using EFcore</li>
+            <li>Also created html layout and css</li>
+            <li>Applied design patterns such as dependency injection, and MVC</li>
+            <li><a href="https://github.com/FerielMaamer/GBCSporting_X-TEAM">Project git</a></li>
+            
+          </ul>
+      </div>
+  </div>
+    
+            
+
+    </div>
+    <script>
+      function addResponsiveClass() {
+        var x = document.getElementById("responsiveTarget");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+      <footer>
+        <div class="text-wrapper">
+          &copy; Robert Kaczur
+          <span class="flavor-text"
+            >- Masterfully made by slamming my head into my keyboard.</span
+          >
+        </div>
+      </footer>
+  </body>
+
+</html>

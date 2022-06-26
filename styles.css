@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: monospace;
   background-color: #444;
-  ;
+  
 }
 
 
@@ -20,7 +20,7 @@ body {
 
 .segment-content {
   flex: 45%;
-  
+
 }
 
 .topnav {
@@ -110,7 +110,7 @@ a u {
   padding-right: 5px;
 }
 
-.main-shadow{
+.main-shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
@@ -120,14 +120,14 @@ a u {
 .skill-segment {
   display: flex;
   flex-direction: column;
-  
+
 }
 
 .skill-display {
   display: flex;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 5px;
-  
+
 }
 
 .skill-logo .fa {
@@ -136,7 +136,7 @@ a u {
   min-width: 50px;
   color: #00cc80;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  
+
 }
 
 .skill-info {
@@ -153,11 +153,48 @@ a u {
   color: #00cc80;
 }
 
-.fa-bars
-{
+.fa-bars {
   font-size: 20px;
 }
 
+
+/* Project display */
+.project-segment {
+  padding: 5px;
+  background-color: #444;
+  margin-bottom: 5px;
+
+
+}
+
+.project-discription {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-title {
+  background-color: #00cc80;
+  padding: 15px 5px 15px 5px;
+  font-weight: bold;
+  font-size: 16px;
+  min-width: 98%;
+
+}
+
+.project-discription ul {
+  padding-top: 0px;
+}
+
+
+li a:visited {
+  color: #0D985F;
+}
+
+/* General css*/
+.pm-0 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
 
 /* Media queries */
 
@@ -165,11 +202,24 @@ a u {
   .text-wrapper {
     max-width: 1280px;
     margin: auto;
+    
   }
 
-  .segment-content{
+  .segment-content {
     padding-left: 5px;
   }
+
+  .project-segment
+{
+  margin: 0 auto;
+  width: 60%;
+  margin-bottom: 5px;
+
+
+}
+
+
+  
 }
 
 
@@ -190,8 +240,8 @@ a u {
 
   .segment-content {
     flex: 100%;
-    
-    
+
+
   }
 
   .skill-logo .fa {
@@ -201,7 +251,10 @@ a u {
 
   }
 
-  .skill-segment{
+  .skill-segment {}
+
+  .project-title {
+    width: 90%;
   }
 }
 
@@ -235,4 +288,9 @@ a u {
   .flavor-text {
     display: none;
   }
+
+  .fn-sm {
+    font-size: small;
+  }
+
 }
