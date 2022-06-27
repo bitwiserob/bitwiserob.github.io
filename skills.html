@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="topnav" id="responsiveTarget">
+      <div class="text-wrapper">
+        <div class="main-nav">
+          <a href="/index.html" class="active"
+            ><u id="test">Bitwise<span id="logo-text">Rob</span></u></a
+          >
+          <a href="#about"><u>About</u></a>
+          <a href="/projects.html"><u>Projects</u></a>
+          <a href="/skills.html"><u>Skills</u></a>
+          <a href="#resume"><u>Resume</u></a>
+          <a
+            href="javascript:void(0);"
+            class="icon"
+            onclick="addResponsiveClass()"
+          >
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+
+        <div class="topnav-right">
+          <a href="https://github.com/bitwiserob" target="_blank"
+            ><i class="fa fa-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/robert-kaczur/" target="_blank"
+            ><i class="fa fa-linkedin"></i
+          ></a>
+          <a href="mailto:robert.kaczur@outlook.com" target="_blank"
+            ><i class="fa fa-envelope"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+
+        <div class="top-segment text-wrapper" style="flex-direction: column">
+          
+          <div class="project-segment main-shadow">
+            <div class="project-title main-shadow fn-sm">
+              Programming Languages
+            </div>
+            <div class="project-discription">
+              <h4 class="pm-0" style="padding-top: 20px">Proficient Skills</h4>
+              
+              <ul>
+                <li>
+                  <b>C#</b>, <b>Python</b>, <b>JavaScript</b>, HTML, CSS,  PHP, Java</li>
+                <li>
+                  Bolded skills are areas of focus
+                </li>
+              </ul>
+
+              <h4 class="pm-0">Details</h4>
+              <ul>
+                <li>
+                  Skills were gained through formal education and self-learning
+                </li>
+                <li>Skills were honed over the course of 5 years</li>
+                <li>Able to quickly pick up new languages and frameworks</li>
+                <li>Understanding of related concepts such as OOP</li>
+                
+
+              </ul>
+            </div>
+          </div>
+          
+          <div class="project-segment main-shadow">
+            <div class="project-title main-shadow fn-sm">
+              Frontend Development
+            </div>
+            <div class="project-discription">
+              <h4 class="pm-0" style="padding-top: 20px">Skills</h4>
+              <ul>
+                <li><b>HTML, CSS, JS</b> gained from education and self learning</li>
+                <li><b>React, React Native, Bootstrap </b>gained from home learning and freelance</li>
+              </ul>
+    
+              <h4 class="pm-0">Details</h4>
+              <ul>
+                <li>
+                  Able to quicky create html and css templates for quickly prototypeing websites
+                </li>
+                <li>Practical knowledge of react and react native</li>
+                <li>Practical knowledge of bootstrap from prototypeing</li>
+                <li>Ability to create frontends that consume RESTful apis</li>
+                <li>Working knowledge of responsive and mobile first design and development</li>
+
+              </ul>
+            </div>
+          </div>
+          <div class="project-segment main-shadow">
+            <div class="project-title main-shadow fn-sm">
+              Backend Development
+            </div>
+            <div class="project-discription">
+              <h4 class="pm-0" style="padding-top: 20px">Skills</h4>
+              <ul>
+                <li><b>ASP.net, PHP</b> gained from education and self learning</li>
+                <li><b>Flask, Node(express) </b>gained from home learning and freelance</li>
+              </ul>
+    
+              <h4 class="pm-0">Details</h4>
+              <ul>
+
+
+              </ul>
+            </div>
+          </div>
+          
+      </div>
+      
+    </div>
+    </div>
+
+    <script>
+      function addResponsiveClass() {
+        var x = document.getElementById("responsiveTarget");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+      <footer>
+        <div class="text-wrapper">
+          &copy; Robert Kaczur
+          <span class="flavor-text"
+            >- Masterfully made by slamming my head into my keyboard.</span
+          >
+        </div>
+      </footer>
+  </body>
+
+</html>
