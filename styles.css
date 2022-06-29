@@ -169,7 +169,7 @@ a u {
 
 
 /* Project display */
-.project-segment {
+.content-segment {
   padding: 5px;
   background-color: #444;
   margin-bottom: 5px;
@@ -177,12 +177,12 @@ a u {
 
 }
 
-.project-discription {
+.content-discription {
   display: flex;
   flex-direction: column;
 }
 
-.project-title {
+.content-title {
   background-color: #00cc80;
   padding: 15px 5px 15px 5px;
   font-weight: bold;
@@ -191,7 +191,7 @@ a u {
 
 }
 
-.project-discription ul {
+.content-discription ul {
   padding-top: 0px;
 }
 
@@ -219,7 +219,7 @@ li a:visited {
     padding-left: 5px;
   }
 
-  .project-segment
+  .content-segment
 {
   margin: 0 auto;
   width: 60%;
@@ -263,7 +263,7 @@ li a:visited {
 
   .skill-segment {}
 
-  .project-title {
+  .content-title {
     width: 90%;
   }
 }
