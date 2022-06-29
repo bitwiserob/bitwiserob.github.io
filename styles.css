@@ -18,7 +18,7 @@ body {
 
 }
 
-.segment-content {
+.segment-wrapper {
   flex: 45%;
 
 }
@@ -215,7 +215,7 @@ li a:visited {
     
   }
 
-  .segment-content {
+  .segment-wrapper {
     padding-left: 5px;
   }
 
@@ -248,7 +248,7 @@ li a:visited {
     font-size: .6rem;
   }
 
-  .segment-content {
+  .segment-wrapper {
     flex: 100%;
 
 
