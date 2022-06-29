@@ -72,7 +72,17 @@ footer {
 
 }
 
+.skill-segment > a{
+  color: inherit;
+  text-decoration: none;
+  
+}
 
+.skill-segment > a:hover
+{
+  
+  border-left: solid 1px #00cc80;
+}
 
 a u {
   text-decoration-color: #00cc80;
