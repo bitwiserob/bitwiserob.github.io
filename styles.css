@@ -78,6 +78,9 @@ footer {
   
 }
 
+
+
+
 .skill-segment > a:hover
 {
   
@@ -108,6 +111,8 @@ a u {
 }
 
 
+/* index  */
+
 
 .pic-wrapper {
   display: flex;
@@ -119,6 +124,29 @@ a u {
 .profile-picture {
   padding-right: 5px;
 }
+
+
+.lang-rating
+{
+  font-size: 14px;
+  padding-top: 2px;
+}
+
+.lang-blurb
+{
+  padding: 5px;
+}
+
+.lang-group
+{
+  padding-bottom: 5px;
+}
+
+.lang-group > b{
+  padding-bottom: 5px;
+}
+
+
 
 .main-shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -301,6 +329,13 @@ li a:visited {
 
   .fn-sm {
     font-size: small;
+  }
+  .lang-blurb
+  {
+    font-size: smaller;
+  }
+  .fn-xs{
+    font-size: x-small;
   }
 
 }
