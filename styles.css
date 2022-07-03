@@ -228,11 +228,17 @@ li a:visited {
   color: #0D985F;
 }
 
-/* General css*/
+/* general css*/
 .pm-0 {
   margin-bottom: 0px;
   margin-top: 0px;
 }
+
+/* blurb */
+.blurb{
+  padding:5px;
+}
+
 
 /* Media queries */
 
