@@ -205,6 +205,15 @@ a u {
 
 }
 
+.content-segment a{
+  color: #00cc80;
+  text-decoration: none;
+}
+.content-segment a:visited{
+  color: #047a4f;
+  text-decoration: none;
+}
+
 .content-discription {
   display: flex;
   flex-direction: column;
@@ -238,6 +247,8 @@ li a:visited {
 .blurb{
   padding:5px;
 }
+
+/* project links */
 
 
 /* Media queries */
