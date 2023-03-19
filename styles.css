@@ -1,7 +1,6 @@
 body {
   margin: 0;
-  font-family: monospace;
-  background-color: #444;
+  background-color: #212529;
   
 }
 
@@ -356,3 +355,4 @@ li a:visited {
   }
 
 }
+
