@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Data Science Projects</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    
-
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
 
     <link
       rel="stylesheet"
@@ -50,73 +53,110 @@
       </div>
     </div>
     <div class="top-segment text-wrapper" style="flex-direction: column">
-      <div class="content-segment main-shadow">
+      <div class="content-segment main-shadow"> 
         <div class="content-title main-shadow fn-sm collapsible" id="frontend">
-          Predictive Maintance
+          Predictive Maintenance - Machine Learning
         </div>
         <div class="content">
-        </div>
-
-      </div>
-      <div class="content-segment main-shadow">
-        <div class="content-title main-shadow fn-sm collapsible" id="frontend">
-          Stock Price Prediction
-          <!-- drop down div that is collapsable with a pdf or gallary-->
-        </div>
-        <div class="content">
-        
-        </div>
-        
-      </div>
-      <div class="content-segment main-shadow">
-        <div class="content-title main-shadow fn-sm collapsible" id="frontend">
-          Big Data Project
-      
-        </div>
-        <div class="content">
-        
+         <div class="content-wrapper">
+          <div class="wrapper-image">
+            <img src="./assets/img1.png">
+          </div>
+          <div class="wrapper-text p-1">
+            <h5>Project Description</h5>
+            <ul>
+              <li>Used core ML techniques to explore ML applications for predictive maintenance </li>
+            </ul>
+            <h5>Skills</h5>
+            <ul>
+              <li>Random forest, SGD, SVM, Linear Regression</li>
+              <li>Numpy, Pandas, Scikit-learn</li>
+            </ul>
+              
+          </div>
+         </div>
         </div>
         
       </div>
-      <div class="content-segment main-shadow">
+      <div class="content-segment main-shadow"> 
         <div class="content-title main-shadow fn-sm collapsible" id="frontend">
-          Visualization Project
-      
+          Stock Analysis - Deep Learning
         </div>
         <div class="content">
-        
+         <div class="content-wrapper">
+          <div class="wrapper-image">
+            <img src="./assets/img4.png" width="250px">
+          </div>
+          <div class="wrapper-text p-1">
+            <h5>Project Description</h5>
+            <ul>
+              <li>Performed Analysis of various stocks </li>
+              <li>Regression, Clustering, Sentiment Analysis</li>
+            </ul>
+            <h5>Skills</h5>
+            <ul>
+              <li>LSTM, Autoencoders, GRU, Clustering</li>
+              <li>Numpy, Pandas, Keras, Tensorflow</li>
+            </ul>
+              
+          </div>
+         </div>
         </div>
         
       </div>
-      <div class="content-segment main-shadow">
+      <div class="content-segment main-shadow"> 
         <div class="content-title main-shadow fn-sm collapsible" id="frontend">
-           Deep learning II
-      
+          Startup Analysis - Data Visualization
         </div>
         <div class="content">
-          
+         <div class="content-wrapper">
+          <div class="wrapper-image">
+            <img src="./assets/img5.png" width="250px" height="250px">
+          </div>
+          <div class="wrapper-text p-1">
+            <h5>Project Description</h5>
+            <ul>
+              <li>Performed Analysis of Startups </li>
+              <li>Created dashboards and Visualizations to illustrate patterns using tableau dashboards</li>
+            </ul>
+            <h5>Skills</h5>
+            <ul>
+              <li>Tableau, Dashboard, Story</li>
+              <li>Various Data visualizations</li>
+            </ul>
+              
+          </div>
+         </div>
         </div>
         
       </div>
-      <div class="content-segment main-shadow">
+      <div class="content-segment main-shadow"> 
         <div class="content-title main-shadow fn-sm collapsible" id="frontend">
-          Deep learning math
-      
+          Big Data - Cloud Infrastructure
         </div>
         <div class="content">
-        
+         <div class="content-wrapper">
+          <div class="wrapper-image">
+            <img src="./assets/img6.png" width="250px" height="250px">
+          </div>
+          <div class="wrapper-text p-1">
+            <h5>Project Description</h5>
+            <ul>
+              <li>Designed and deployed a big data pipeline to perform data analysis and various data sources </li>
+              <li>Tasks included etl, data extraction and ML</li>
+            </ul>
+            <h5>Skills</h5>
+            <ul>
+              <li>Big data, ETL, Datawarehousing, Cloud computing</li>
+              <li>Pyspark, Mongodb, Hadoop, Alteryx, Snowflake </li>
+            </ul>
+              
+          </div>
+         </div>
         </div>
         
-      </div>
-      <div class="content-segment main-shadow">
-        <div class="content-title main-shadow fn-sm collapsible" id="frontend">
-          Data Management Project
-        </div>
-        <div class="content">
-        </div>
       </div>
     </div>
-    
 
     <script>
       function addResponsiveClass() {
@@ -129,29 +169,31 @@
       }
 
       var coll = document.getElementsByClassName("collapsible");
-var i;
+      var i;
 
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.display === "block") {
+            content.style.display = "none";
+          } else {
+            content.style.display = "block";
+          }
+        });
+      }
     </script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="script.js"></script>
 
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
 
-      <footer>
-        <div class="text-wrapper">
-          &copy; Robert Kaczur
-           
-        </div>
-      </footer>
+    <footer>
+      <div class="text-wrapper">&copy; Robert Kaczur</div>
+    </footer>
   </body>
-
 </html>

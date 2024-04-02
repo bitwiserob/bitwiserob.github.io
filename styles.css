@@ -357,7 +357,10 @@ li a:visited {
 }
 
 
-
+.content-wrapper{
+  display:flex;
+  padding: 5px;
+}
 
 
 
@@ -368,3 +371,5 @@ li a:visited {
   margin-bottom: 3px;
 
 }
+
+
